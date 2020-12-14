@@ -14,21 +14,18 @@ let items = ['cherries', 'oranges', 'plums', 'bells', 'melons', 'bars'];
 
 function generateSlot1() {
 let slot = (generateNumber());
-//document.write(slot + " "); //get rid of later
 picture1 = items[slot];
 document.write(picture1 + "<br>");
 }
 
 function generateSlot2() {
 let slot = (generateNumber());
-//document.write(slot + " "); //get rid of later
 picture2 = items[slot];
 document.write(picture2 + "<br>");
 }
 
 function generateSlot3() {
 let slot = (generateNumber());
-//document.write(slot + " "); //get rid of later
 picture3 = items[slot];
 document.write(picture3 + "<br>");
 }
